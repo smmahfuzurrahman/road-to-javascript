@@ -21,26 +21,25 @@ myArray.push(60);
 myArray.pop();
 //3.
 myArray.unshift(5);
-
-
+//4.
 myArray.shift();
-
+//5.
 let index = myArray.indexOf(30);
-
+//6.
 if (index !== -1) {
     myArray.splice(index, 1);
 }
-
+//7.
 let exists = myArray.includes(40);
-
+//8.
 myArray.reverse();
-
+//9.
 myArray.sort((a, b) => a - b);
-
+//10.
 let squaredArray = myArray.map(num => num * num);
-
+//11.
 let filteredArray = myArray.filter(num => num > 20);
-
+//12.
 let sum = myArray.reduce((acc, num) => acc + num, 0);
 
 // Log the results
